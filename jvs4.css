@@ -1,0 +1,52 @@
+.item{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.img{
+    width: 30%;
+    padding-left: 2%;
+}
+.text{
+    width: 70%;
+    padding-left: 2%;
+}
+.img img{
+    max-width: 100%;
+}
+.news{
+    padding: 0 50px;
+}
+.title{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.title a{
+    color: blue;
+    transition: .2s linear;
+    text-decoration: underline;
+}
+.title a:hover{
+    color: red;
+}
+.time{
+    color: #666;
+}
+.des{
+    font-size: 16px;
+}
+
+hr{ 
+    width: 1000%;
+    height:1px;
+    background: #fff }
+
+ #load{
+        width:100%;
+        height:100%;
+        position:fixed;
+        z-index:9999;
+        background:url("Preloader_8.gif") no-repeat center center rgba(0,0,0,0.25);
+        background-size: cover;
+    }
+
